@@ -16,7 +16,7 @@ const Navbar = () => {
           <div className='flex items-center space-x-2'>
             <img className='w-14' src="./images/logo-puño3.jpg" alt="" />
           </div>
-          <button className={`md:hidden absolute right-5 ${click ? 'transition duration-300 -rotate-90' : 'transition duration-300 rotate-0'}`} onClick={handleClick}> <img src="./images/menu.png" alt="" /></button>
+          <button className={`md:hidden absolute right-5 ${click ? 'transition duration-300 -rotate-90' : 'transition duration-300 rotate-0'}`} onClick={handleClick}> <img src="./images/menu (2).png" alt="" /></button>
         </div>
         <div className='hidden md:flex space-x-10 w-1/3 justify-center'>
           <button className='text-white border-neutral-900 border-b-4 duration-300 hover:text-xl hover:border-b-red-500'>

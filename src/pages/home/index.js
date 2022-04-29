@@ -1,27 +1,11 @@
-import React, { useState } from "react";
-import Categories from "./components/categories";
-import Champions from "./components/item";
-import data from './components/data';
+import React from 'react';
 
-function MainChampions() {
-  const allCategories = ['All', ...new Set(data.map((item) => item.category))];
-  const [champions, setChampions] = useState(data)
-
-  const filterItems = (category) => {
-    if (category === 'All') {
-      setChampions(data)
-      return;
-    }
-    const newData = data.filter((item) => item.category === category)
-    setChampions(newData)
-  }
+function Home() {
   return (
-    <div className="pb-20">
-      <h2 className="flex justify-center text-5xl p-10 font-bold text-[#202020]">Champions</h2>
-      <Categories categories={allCategories} filterItems={filterItems} />
-      <Champions data={champions} />
+    <div className='flex flex-col items-center justify-center h-screen '>
+      <a className='' href="https://signup.lan.leagueoflegends.com/es/signup/redownload" target='blank'>PLAY FOR FREE</a>
     </div>
   );
 }
 
-export default MainChampions;
+export default Home;
