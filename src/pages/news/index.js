@@ -14,8 +14,8 @@ function NewsList() {
   }, [])
 
   return (
-    <div className='py-10 sm:p-2 lg:px-44 md:p-20'>
-      <h1 className='text-5xl flex justify-center p-5 font-bold text-[#202020]'>Last News</h1>
+    <div className='lg:px-44 md:px-20'>
+      <h1 className='text-5xl p-10 pb-0 flex justify-center font-bold text-[#202020]'>Last News</h1>
       {articles.map((article, i) => {
         return (
           <div>

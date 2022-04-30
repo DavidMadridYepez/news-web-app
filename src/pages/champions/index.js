@@ -17,7 +17,7 @@ function MainChampions() {
   }
   return (
     <div className="pb-20">
-      <h2 className="flex justify-center text-5xl p-10 font-bold text-[#202020]">Champions</h2>
+      <h2 className="flex p-10 justify-center text-5xl font-bold text-[#202020]">Champions</h2>
       <Categories categories={allCategories} filterItems={filterItems} />
       <Item data={champions} />
     </div>
