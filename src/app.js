@@ -5,6 +5,7 @@ import News from './pages/news';
 import Login from './pages/login'
 import Signup from './pages/signup';
 import Navbar from './components/navbar'
+import Footer from "./components/footer";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/log-in" element={<Login />} />
         <Route path="/sign-up" element={<Signup />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
 
   );
