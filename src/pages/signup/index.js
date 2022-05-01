@@ -9,7 +9,7 @@ function Login() {
 
   return (
     <div className='h-screen flex items-center justify-center'>
-      <div className='flex justify-center items-center flex-col space-y-3 p-12 border-2 border-gray-200'>
+      <div className='flex justify-center items-center flex-col space-y-3 p-10 border-2 border-gray-200'>
         <h1 className='font-bold text-3xl pb-10 pt-4'>Sign Up</h1>
         <input value={user} onChange={e => setUser(e.target.value)} type="text" placeholder='Username' className='w-full bg-gray-200 placeholder:text-neutral-700 rounded py-4 px-5' />
         <input value={password} onChange={e => setPassword(e.target.value)} type="text" placeholder='Password' className='w-full bg-gray-200 placeholder:text-neutral-700 rounded py-4 px-5' />
