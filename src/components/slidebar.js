@@ -9,7 +9,7 @@ function Slidebar({ handleClick }) {
           <Link className='px-32 py-9' to='/'>Home</Link>
         </button >
         <button className='transition duration-300 w-full hover:bg-neutral-900 hover:text-white p-10' onClick={handleClick}>
-          <Link className='border-black border-2  px-28 py-9' to='/champions'>Champions</Link>
+          <Link className='px-24 py-9' to='/champions'>Champions</Link>
         </button>
         <button className='transition duration-300 w-full hover:bg-neutral-900 hover:text-white p-10' onClick={handleClick}>
           <Link className='px-32 py-9' to='/news'>News</Link>
